@@ -1,6 +1,6 @@
-# Blog Title :link: https://cinzy.github.io 
+# CINZY-LAB :link: https://cinzy.github.io 
 ### :page_facing_up: [1](https://cinzy.github.io/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 4 
-### :alarm_clock: 2024-06-24 22:10:47 
+### :alarm_clock: 2024-06-24 22:25:16 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
