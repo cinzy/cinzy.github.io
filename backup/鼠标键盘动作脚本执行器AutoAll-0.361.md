@@ -6,6 +6,7 @@
 
 ### 下载连接
 
+![fav](https://github.com/cinzy/cinzy.github.io/assets/33305897/fa43b70f-7ca7-4899-9146-264712f50447)
 [autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)
 MD5:f342120a747567f17c941bab310fb3d8
 
