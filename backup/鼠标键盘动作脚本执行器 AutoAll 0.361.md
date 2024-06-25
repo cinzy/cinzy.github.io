@@ -7,6 +7,7 @@
 ### 下载连接
 
 [autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)
+MD5:f342120a747567f17c941bab310fb3d8
 
 
 ### 更新日志
