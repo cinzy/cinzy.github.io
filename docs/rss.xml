@@ -1,2 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.github.io</link><description>CINZY-LAB，分享好玩的DIY things</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/33305897?s=400&amp;u=f846547d158532218823eedcc4290efd3bf1337f&amp;v=4</url><title>avatar</title><link>https://cinzy.github.io</link></image><lastBuildDate>Mon, 24 Jun 2024 14:58:40 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>Hello world！</title><link>https://cinzy.github.io/post/Hello%20world%EF%BC%81.html</link><description>Test。</description><guid isPermaLink="true">https://cinzy.github.io/post/Hello%20world%EF%BC%81.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.github.io</link><description>CINZY-LAB，分享好玩的DIY things</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/33305897?s=400&amp;u=f846547d158532218823eedcc4290efd3bf1337f&amp;v=4</url><title>avatar</title><link>https://cinzy.github.io</link></image><lastBuildDate>Tue, 25 Jun 2024 03:07:50 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>鼠标键盘动作脚本执行器 AutoAll 0.361</title><link>https://cinzy.github.io/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-%20AutoAll%200.361.html</link><description>### 简介&#13;
+&#13;
+创建脚本文件让电脑自动工作,解放双手&#13;
+&#13;
+![autoall](https://github.com/cinzy/cinzy.github.io/assets/33305897/6559c232-7b01-4ea9-ae36-7dfb1130a5e7)&#13;
+&#13;
+### 下载连接&#13;
+&#13;
+[autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)&#13;
+&#13;
+&#13;
+### 更新日志&#13;
+&#13;
+V0.361  BETA 20100201&#13;
+◎[修复]修复热键执行脚本指令在保存exe后失效的bug&#13;
+V0.36  BETA 20091213&#13;
+◎[改进]优化脚本执行效率&#13;
+◎[增加]加载脚本时对脚本语言判断&#13;
+V0.353 BETA 20090730&#13;
+◎[修复]热键则执行其他脚本的选择脚本出现乱码的bug&#13;
+◎[修复]进程移至前台则继续在XP下无法获取进程名字的bug&#13;
+V0.352 BETA 20090727&#13;
+◎[修复]鼠标移动到托盘图标消失的bug&#13;
+◎[修复]鼠标新版本图标&#13;
+◎[修复]定位窗口到左上角不能插入的bug&#13;
+◎[改进]优化内存占用(原来3M左右现在1M左右)&#13;
+V0.351 BETA 20090725&#13;
+◎[修复]勾选直接运行与循环执行的bug&#13;
+◎[修复]利用剪贴板输出不能长时间运行的bug&#13;
+V0.350 BETA 20090722&#13;
+◎[改进]输出的EXE文件改为无，壳支持修改图标和再次压缩&#13;
+◎[改进]点击测试不再提示保存脚本&#13;
+◎[增加]支持显示托盘图标&#13;
+◎[增加]支持exe类型文件拖拽到窗口&#13;
+BETA 0.340  20090702&#13;
+◎[增加]命令列表下拉框增加提示&#13;
+◎[增加]增加脚本启动提示信息自定义功能&#13;
+◎[增加]WinIO支持（仅支持PS2键盘）&#13;
+◎[修复]修复长时间运行的不稳定性&#13;
+◎[修复]修复其他细微bug&#13;
+BETA 0.303  20090604&#13;
+◎修复列表框双击删除条目跳转到第一行的bug&#13;
+&#13;
+本软件杀软有误报,联系CINZY所要无壳版。</description><guid isPermaLink="true">https://cinzy.github.io/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-%20AutoAll%200.361.html</guid><pubDate>Tue, 25 Jun 2024 03:07:27 +0000</pubDate></item><item><title>Hello world！</title><link>https://cinzy.github.io/post/Hello%20world%EF%BC%81.html</link><description>Test。</description><guid isPermaLink="true">https://cinzy.github.io/post/Hello%20world%EF%BC%81.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
