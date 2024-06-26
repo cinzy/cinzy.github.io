@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.cinzy.com/picx-images-hosting/fav.4ckr2qumid.webp</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Wed, 26 Jun 2024 03:36:40 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>全平台命令行换源工具</title><link>https://cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html</link><description>方便换**镜像源**，C语言写的，简单高效，不多做介绍，以下摘自github&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://www.cinzy.com/picx-images-hosting/fav.4ckr2qumid.webp</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Wed, 26 Jun 2024 08:57:36 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>在 Docker 中运行 Windows</title><link>https://cinzy.com/post/zai-%20Docker%20-zhong-yun-xing-%20Windows.html</link><description>![](https://github.com/dockur/windows/raw/master/.github/logo.png)&#13;
+### 安装&#13;
+&#13;
+使用 [dockur/windows](https://github.com/dockur/windows) 实现，特点：&#13;
+&#13;
+- Multi-language&#13;
+- ISO downloader&#13;
+- KVM acceleration&#13;
+- Web-based viewer&#13;
+&#13;
+一条命令即可，但需要分配 2 个 CPU 核心、4 GB 内存和64GB 硬盘，默认安装Windows 11。</description><guid isPermaLink="true">https://cinzy.com/post/zai-%20Docker%20-zhong-yun-xing-%20Windows.html</guid><pubDate>Wed, 26 Jun 2024 08:57:12 +0000</pubDate></item><item><title>全平台命令行换源工具</title><link>https://cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html</link><description>方便换**镜像源**，C语言写的，简单高效，不多做介绍，以下摘自github&#13;
 &#13;
 ![charc](https://github.com/RubyMetric/chsrc/raw/main/image/chsrc.png)&#13;
 &#13;
