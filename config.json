@@ -2,6 +2,7 @@
     "title":"CINZY-LAB",
     "subTitle":"CINZY-LAB，老站重启",
     "avatarUrl":"https://www.cinzy.com/picx-images-hosting/520e210ff93872c23d2678e3ba8cbfe7.lxvtbf9g.jpeg",
+    "faviconUrl":"https://www.cinzy.com/picx-images-hosting/fav.4ckr2qumid.webp",
     "GMEEK_VERSION":"last",
     "showPostSource":0,
     "homeUrl":"https://cinzy.com",
@@ -9,6 +10,7 @@
     "filingNum":"京ICP备09073433号",
     "onePageListNum":60,
     "singlePage":["about"],
+    "exlink":{"about":"https://www.cinzy.com/post/guan-yu.html"},
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "ogImage":"https://avatars.githubusercontent.com/u/33305897?s=400&u=f846547d158532218823eedcc4290efd3bf1337f&v=4"
 }
