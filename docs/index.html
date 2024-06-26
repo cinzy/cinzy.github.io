@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
-    <link rel="icon" href="https://www.cinzy.com/picx-images-hosting/520e210ff93872c23d2678e3ba8cbfe7.lxvtbf9g.jpeg"><script>
+    <link rel="icon" href="https://www.cinzy.com/picx-images-hosting/fav.4ckr2qumid.webp"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
@@ -62,7 +62,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
             <path id="pathSearch" fill-rule="evenodd"></path>
         </svg>
     </a>
-    
+    <a href="https://www.cinzy.com/post/guan-yu.html" class="btn btn-invisible circle" title="about" target="_blank">
+        <svg class="octicon" width="16" height="16" >
+            <path id="about" fill-rule="evenodd"></path>
+        </svg>
+    </a>
     
     <a href="https://cinzy.com/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
@@ -223,6 +227,7 @@ for(var i=0;i<iconPost.length;i++){
 }
 
 
+document.getElementById("about").setAttribute("d",value=IconList["about"]);
 
 
 </script>
