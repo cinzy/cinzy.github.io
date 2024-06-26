@@ -13,7 +13,7 @@
 
 5.支持自定义音频播放质量
 
-![ds_music](https://github.com/cinzy/cinzy.github.io/assets/33305897/2be11f4f-2236-4808-96ae-1ed85c7bc4b4)
+![ds_music](https://cinzy.com/picx-images-hosting/ds_music.1aov1ijrdp.webp)
 
 
 ### 获取连接
