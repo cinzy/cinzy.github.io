@@ -7,6 +7,9 @@
     "homeUrl":"https://cinzy.com",
     "displayTitle":"CINZY-LAB",
     "filingNum":"京ICP备09073433号",
+    "onePageListNum":60,
+    "singlePage":["about"],
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
     "about":"https://xz0.notion.site/cinzy-com-6b4e3a1367da40129a4b7671c33e2da3",
     "ogImage":"https://avatars.githubusercontent.com/u/33305897?s=400&u=f846547d158532218823eedcc4290efd3bf1337f&v=4"
 }
