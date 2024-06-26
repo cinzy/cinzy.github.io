@@ -2,7 +2,7 @@
 
 串口调试软件中的一员,不同的是此版本纯API编写,运行高效稳定,只有5K,体系非常小巧,功能强大,非常值得收藏
 
-![comdbg](https://github.com/cinzy/cinzy.github.io/assets/33305897/9f090d2b-9241-4361-943c-68277cf47c52)
+![comdbg](https://www.cinzy.com/picx-images-hosting/comdbg.8s3682rn0u.webp)
 
 
 ### 下载地址
