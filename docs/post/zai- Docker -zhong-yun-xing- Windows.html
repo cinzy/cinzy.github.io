@@ -203,7 +203,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 调整内存、硬盘大小：</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">-e RAM_SIZE: <span class="pl-s"><span class="pl-pds">"</span>1G<span class="pl-pds">"</span></span> -e DISK_SIZE: <span class="pl-s"><span class="pl-pds">"</span>20G<span class="pl-pds">"</span></span></pre></div>
 <p>启动win7的完整的命令</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 -e win7 -e RAM_SIZE:<span class="pl-s"><span class="pl-pds">"</span>1G<span class="pl-pds">"</span></span> -e DISK_SIZE:<span class="pl-s"><span class="pl-pds">"</span>20G<span class="pl-pds">"</span></span> dockur/windows</pre></div>
+<div class="highlight highlight-source-shell"><pre class="notranslate">cinzy@ubuntu20_04:<span class="pl-k">~</span>$ sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 -e VERSION=win7 -e RAM_SIZE=1G  dockur/windows
+❯ Starting Windows <span class="pl-k">for</span> Docker v3.12...
+❯ For support visit https://github.com/dockur/windows
+❯ CPU: Intel Core TM i5 8250U CPU <span class="pl-k">|</span> RAM: 2/4 GB <span class="pl-k">|</span> DISK: 183 GB (ext4) <span class="pl-k">|</span> HOST: 5.15.146.1-microsoft-standard-WSL2...
+
+❯ Downloading Windows 7 from bobpony.com...
+❯ ERROR: Failed to download https://dl.bobpony.com/windows/7/en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso , server issued an error response<span class="pl-k">!</span>
+❯ Failed to download Windows 7, will try another mirror now...
+❯ Downloading Windows 7 from files.dog...
+/storage/tmp/win7x64.iso    22%[<span class="pl-k">========&gt;</span>                                ] 696.08M  1007KB/s    eta 26m 54s</pre></div>
 <h2><strong>使用</strong></h2>
 <p>浏览器打开 IP:8006</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
@@ -263,7 +272,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="2";
+    cmButton.appendChild(span);
 function openComments(){
     cm=document.getElementById("comments");
     cmButton=document.getElementById("cmButton");

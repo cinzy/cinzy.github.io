@@ -50,7 +50,16 @@ tiny10 | Tiny 10 | 3.6 GB
 
 启动win7的完整的命令
 ```shell
-sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 -e win7 -e RAM_SIZE:"1G" -e DISK_SIZE:"20G" dockur/windows
+cinzy@ubuntu20_04:~$ sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 -e VERSION=win7 -e RAM_SIZE=1G  dockur/windows
+❯ Starting Windows for Docker v3.12...
+❯ For support visit https://github.com/dockur/windows
+❯ CPU: Intel Core TM i5 8250U CPU | RAM: 2/4 GB | DISK: 183 GB (ext4) | HOST: 5.15.146.1-microsoft-standard-WSL2...
+
+❯ Downloading Windows 7 from bobpony.com...
+❯ ERROR: Failed to download https://dl.bobpony.com/windows/7/en_windows_7_enterprise_with_sp1_x64_dvd_u_677651.iso , server issued an error response!
+❯ Failed to download Windows 7, will try another mirror now...
+❯ Downloading Windows 7 from files.dog...
+/storage/tmp/win7x64.iso    22%[========>                                ] 696.08M  1007KB/s    eta 26m 54s
 ```
 
 ## **使用**
