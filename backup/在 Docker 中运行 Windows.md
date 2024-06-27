@@ -47,7 +47,7 @@ tiny10 | Tiny 10 | 3.6 GB
 ```shell
 -e RAM_SIZE: "1G" -e DISK_SIZE: "20G"
 ```
-
+实测启动命令和实际有些出入，在docker version 26.1.3中测试，先pull镜像，然后import后执行下面的操作
 启动win7的完整的命令
 ```shell
 cinzy@ubuntu20_04:~$ sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 -e VERSION=win7 -e RAM_SIZE=1G  dockur/windows
