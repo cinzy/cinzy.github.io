@@ -65,3 +65,4 @@ cinzy@ubuntu20_04:~$ sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --c
 ## **使用**
 
 浏览器打开 IP:8006
+![](https://cinzy.github.io/picx-images-hosting/85478c0057e7084541b8d767f2c4c7ea.3k7vmw2ku8.png)
