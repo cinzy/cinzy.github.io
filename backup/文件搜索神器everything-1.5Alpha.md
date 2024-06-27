@@ -2,6 +2,10 @@
 
 ![](https://www.cinzy.com/picx-images-hosting/everything1.5a.92q01oehr1.webp)
 
+> - 文件内容索引用法
+> ![文件内容索引用法](https://www.voidtools.com/content.search.png)
+> 
+
 ### 下载地址
 [Everything-1.5.0.1383a.x64-Setup.exe](https://www.voidtools.com/Everything-1.5.0.1383a.x64-Setup.exe) (1603 KB)
 [Everything-1.5.0.1383a.x86-Setup.exe](https://www.voidtools.com/Everything-1.5.0.1383a.x86-Setup.exe) (1496 KB)
