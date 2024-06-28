@@ -7,4 +7,6 @@ OCR功能实测效果相当不错
 [GITHUB](https://github.com/ZGGSONG/STranslate/releases/)
 
 > 该软件需安装.NET
-> 使用OCR功能需要下载离线数据包，建议通过ghProxy渠道
+> 使用OCR功能需要下载离线数据包：
+> - 右键单击托盘图标，选偏好设置
+> - 左侧选OCR服务，选PaddleOCR，数据包点下载，然后选ghProxy，静静等待进度条走完即可
