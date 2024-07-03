@@ -2,7 +2,7 @@
     "title":"CINZY-LAB",
     "subTitle":"CINZY-LAB，老站重启",
     "avatarUrl":"/logo64.jpg",
-    "faviconUrl":"https://www.cinzy.com/picx-images-hosting/fav.4ckr2qumid.webp",
+    "faviconUrl":"/fav.ico",
     "GMEEK_VERSION":"last",
     "showPostSource":0,
     "homeUrl":"https://cinzy.com",
@@ -13,5 +13,5 @@
     "script":"<script async data-id=\"101457243\" src='//static.getclicky.com/js'></script>",
     "indexScript":"<script async data-id=\"101457243\" src='//static.getclicky.com/js'></script>",
     "yearColorList":["#3333FF", "#3333FF", "#3333FF", "#3333FF"],
-    "ogImage":"https://cdn.jsdelivr.net/gh/cinzy/cinzy.github.io/logo64.jpg"
+    "ogImage":"/logo64.jpg"
 }
