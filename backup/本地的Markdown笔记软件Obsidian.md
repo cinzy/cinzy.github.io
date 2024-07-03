@@ -1,4 +1,4 @@
-Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。支持多平台（windows、iOS/Android/Linux）
+Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。支持多平台（windows、iOS/Android/Linux），个人使用免费。
 
 ## 特点
 
