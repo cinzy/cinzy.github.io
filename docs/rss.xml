@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Wed, 03 Jul 2024 08:10:49 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>本地的Markdown笔记软件Obsidian</title><link>https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</link><description>Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。</description><guid isPermaLink="true">https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</guid><pubDate>Wed, 03 Jul 2024 07:27:30 +0000</pubDate></item><item><title>离线使用Chrome内置AI</title><link>https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</link><description>谷歌在Chrome开发版上增加了Gemini Nano这个LLM到本地执行，不联网直接使用。</description><guid isPermaLink="true">https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</guid><pubDate>Tue, 02 Jul 2024 06:04:19 +0000</pubDate></item><item><title>Paddle飞浆OCR简单试用</title><link>https://cinzy.com/post/Paddle-fei-jiang-OCR-jian-dan-shi-yong.html</link><description>## 环境&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Tue, 09 Jul 2024 02:58:22 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>本地的Markdown笔记软件Obsidian</title><link>https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</link><description>Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。</description><guid isPermaLink="true">https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</guid><pubDate>Wed, 03 Jul 2024 07:27:30 +0000</pubDate></item><item><title>离线使用Chrome内置AI</title><link>https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</link><description>谷歌在Chrome开发版上增加了Gemini Nano这个LLM到本地执行，不联网直接使用。</description><guid isPermaLink="true">https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</guid><pubDate>Tue, 02 Jul 2024 06:04:19 +0000</pubDate></item><item><title>Paddle飞浆OCR简单试用</title><link>https://cinzy.com/post/Paddle-fei-jiang-OCR-jian-dan-shi-yong.html</link><description>## 环境&#13;
 &#13;
 ```bash&#13;
 $ python --version&#13;
@@ -69,6 +69,11 @@ for i in range(len(result[0])):&#13;
 &#13;
 ![fav](https://github.com/cinzy/cinzy.github.io/assets/33305897/fa43b70f-7ca7-4899-9146-264712f50447) [autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)&#13;
 MD5:f342120a747567f17c941bab310fb3d8&#13;
+其他连接&#13;
+[华军软件园](https://m.onlinedown.net/soft/975927.htm)&#13;
+[极速下载站](https://www.mydown.com/soft/254/726017754.shtml)&#13;
+[东坡下载](http://www.uzzf.com/soft/467723.html)&#13;
+[IT之家](https://www.ithome.com/0/008/905.htm)&#13;
 &#13;
 &#13;
 ### 更新日志&#13;
