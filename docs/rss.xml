@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Tue, 09 Jul 2024 03:07:30 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>本地的Markdown笔记软件Obsidian</title><link>https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</link><description>Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。</description><guid isPermaLink="true">https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</guid><pubDate>Wed, 03 Jul 2024 07:27:30 +0000</pubDate></item><item><title>离线使用Chrome内置AI</title><link>https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</link><description>谷歌在Chrome开发版上增加了Gemini Nano这个LLM到本地执行，不联网直接使用。</description><guid isPermaLink="true">https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</guid><pubDate>Tue, 02 Jul 2024 06:04:19 +0000</pubDate></item><item><title>Paddle飞浆OCR简单试用</title><link>https://cinzy.com/post/Paddle-fei-jiang-OCR-jian-dan-shi-yong.html</link><description>## 环境&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Tue, 09 Jul 2024 03:18:34 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>本地的Markdown笔记软件Obsidian</title><link>https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</link><description>Obsidian(黑曜石)笔记软件最大特点是离线本地存储，保障信息安全。</description><guid isPermaLink="true">https://cinzy.com/post/ben-di-de-Markdown-bi-ji-ruan-jian-Obsidian.html</guid><pubDate>Wed, 03 Jul 2024 07:27:30 +0000</pubDate></item><item><title>离线使用Chrome内置AI</title><link>https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</link><description>谷歌在Chrome开发版上增加了Gemini Nano这个LLM到本地执行，不联网直接使用。</description><guid isPermaLink="true">https://cinzy.com/post/li-xian-shi-yong-Chrome-nei-zhi-AI.html</guid><pubDate>Tue, 02 Jul 2024 06:04:19 +0000</pubDate></item><item><title>Paddle飞浆OCR简单试用</title><link>https://cinzy.com/post/Paddle-fei-jiang-OCR-jian-dan-shi-yong.html</link><description>## 环境&#13;
 &#13;
 ```bash&#13;
 $ python --version&#13;
@@ -132,4 +132,20 @@ MD5:315f71dc4acada95297d0b5f2a5b292e&#13;
 &#13;
 ◎修改几处内部逻辑使程序运行更快&#13;
 &#13;
-&lt;!-- ##{'timestamp':1213178828}## --&gt;。</description><guid isPermaLink="true">https://cinzy.com/post/bian-xi-chuan-kou-diao-shi-zhu-shou-COMDBG-0.3RC.html</guid><pubDate>Wed, 11 Jun 2008 10:07:08 +0000</pubDate></item><item><title>CINZY-LAB</title><link>https://cinzy.com/about.html</link><description>早期对程序有极致精简情节，写出了5K的[串口调试助手](https://www.cinzy.com/post/bian-xi-chuan-kou-diao-shi-zhu-shou-COMDBG-0.3RC.html)，20K的[鼠标键盘动作脚本执行器](https://www.cinzy.com/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-AutoAll-0.361.html)，还有很多作品被时代淘汰，不在本站展示。</description><guid isPermaLink="true">https://cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
+&lt;!-- ##{'timestamp':1213178828}## --&gt;。</description><guid isPermaLink="true">https://cinzy.com/post/bian-xi-chuan-kou-diao-shi-zhu-shou-COMDBG-0.3RC.html</guid><pubDate>Wed, 11 Jun 2008 10:07:08 +0000</pubDate></item><item><title>CINZY-LAB</title><link>https://cinzy.com/about.html</link><description>[博客](http://www.cinzy.com)   [贴吧](https://tieba.baidu.com/cinzy)&#13;
+&#13;
+# [鼠标键盘动作脚本执行器](https://www.cinzy.com/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-AutoAll-0.361.html)&#13;
+&#13;
+创建脚本文件让电脑自动工作,解放双手&#13;
+&#13;
+![autoall](https://www.cinzy.com/picx-images-hosting/autoall.lxv9yrjz.webp)&#13;
+---&#13;
+# [串口调试助手](https://www.cinzy.com/post/bian-xi-chuan-kou-diao-shi-zhu-shou-COMDBG-0.3RC.html)&#13;
+&#13;
+串口调试软件中的一员,不同的是此版本纯API编写,运行高效稳定,只有5K,体系非常小巧,功能强大,非常值得收藏&#13;
+![comdbg](https://cinzy.github.io/picx-images-hosting/comdbg.2dokfi2dgq.webp)&#13;
+&#13;
+&#13;
+&gt; 欢迎交流讨论&#13;
+&gt;&#13;
+&gt; [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&amp;jump_from=webapi&amp;authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR)  [\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&amp;sitekey=88445d38b6fc6aeb) 。</description><guid isPermaLink="true">https://cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
