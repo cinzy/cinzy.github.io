@@ -96,7 +96,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>一条命令即可，但需要分配 2 个 CPU 核心、4 GB 内存和64GB 硬盘，默认安装Windows 11。</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">sudo docker run -it --rm -p 8006:8006 --device=/dev/kvm --cap-add NET_ADMIN --stop-timeout 120 dockur/windows</pre></div>
 <p>如果要安装其他系统，只需要在命令中添加 <code class="notranslate">-e win10</code> 即可：</p>
-<table role="table">
+<markdown-accessiblity-table><table role="table">
 <thead>
 <tr>
 <th>Value</th>
@@ -196,7 +196,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <td>3.6 GB</td>
 </tr>
 </tbody>
-</table>
+</table></markdown-accessiblity-table>
 <p>镜像下载很慢你可使用自己的系统镜像：</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">-e VERSION: <span class="pl-s"><span class="pl-pds">"</span>https://example.com/win.iso<span class="pl-pds">"</span></span></pre></div>
 <p>也可以使用本地镜像：重命名 custom.iso 并将其放入空的 <code class="notranslate">/storage</code> 文件夹中以跳过下载。<br>
