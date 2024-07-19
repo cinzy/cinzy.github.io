@@ -23,8 +23,8 @@
 
 [\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb)
 
-`Gmeek-html<input type="text" id="myInput" placeholder="请给我留言...">`
-<a id="mySend" href="#" onclick="fetchUrl()">发送</a>
+`Gmeek-html<input type="text" id="myInput" placeholder="请给我留言..."><a id="mySend" onclick="fetchUrl()">发送</a>`
+
 
 <!-- ##{"script":"<script>
 function fetchUrl() {
