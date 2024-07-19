@@ -38,7 +38,7 @@ function fetchUrl() {
     })
     .catch(error => console.error('Error fetching the URL:', error));
 }
-</script>
+</script> -->
 <input type="text" id="myInput" placeholder="请给我留言...">
-<a id="mySend" href="#" onclick="fetchUrl()">发送</a>-->
-[\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb) 
+<a id="mySend" href="#" onclick="fetchUrl()">发送</a>
+[\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb)
