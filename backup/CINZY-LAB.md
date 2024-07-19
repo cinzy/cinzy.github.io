@@ -20,10 +20,11 @@
 > 欢迎交流讨论
 >
 > [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR) 
-<!--<script>
+
+`Geek-html<script>
 function fetchUrl() {
   var inputVal = document.getElementById('myInput').value;
-  const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;
+  const url = 'https://api.buday.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;
   fetch(url)
     .then(response => response.json())
     .then(data => {
@@ -38,7 +39,9 @@ function fetchUrl() {
     })
     .catch(error => console.error('Error fetching the URL:', error));
 }
-</script> -->
+</script>
+
 <input type="text" id="myInput" placeholder="请给我留言...">
-<a id="mySend" href="#" onclick="fetchUrl()">发送</a>
+<a id="mySend" href="#" onclick="fetchUrl()">发送</a>`
+
 [\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb)
