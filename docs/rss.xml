@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Fri, 19 Jul 2024 11:34:27 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>免费的iOS推送消息Bark</title><link>https://cinzy.com/post/mian-fei-de-iOS-tui-song-xiao-xi-Bark.html</link><description>自己网站或家庭的IoT网络有给自己发送通知的需求，可以试试这个软件，使用起来非常简单，无需注册帐号，安装即可用，仅需访问软件给分配URL后面加消息即可发送到手机，格式如下：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://cinzy.com</link></image><lastBuildDate>Fri, 19 Jul 2024 11:42:48 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>免费的iOS推送消息Bark</title><link>https://cinzy.com/post/mian-fei-de-iOS-tui-song-xiao-xi-Bark.html</link><description>自己网站或家庭的IoT网络有给自己发送通知的需求，可以试试这个软件，使用起来非常简单，无需注册帐号，安装即可用，仅需访问软件给分配URL后面加消息即可发送到手机，格式如下：
 https://api.day.app/KeyXXXXXXXXXXXXXX/吃了吗
 
 AppStore获取
@@ -161,13 +161,8 @@ MD5:315f71dc4acada95297d0b5f2a5b292e&#13;
 &#13;
 [\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&amp;sitekey=88445d38b6fc6aeb)&#13;
 &#13;
-`Gmeek-html&lt;input type='text' id='myInput' placeholder='请给我留言...'&gt;&lt;a id='mySend' onclick='fetchUrl()'&gt;发送&lt;/a&gt;`&#13;
+`Gmeek-html&lt;input type='text' id='myInput' placeholder='请给我留言...'&gt;&#13;
+&lt;a id='mySend' style='cursor:pointer' onclick='fetchUrl()'&gt;发送&lt;/a&gt;`&#13;
 &#13;
 &#13;
-&lt;!-- ##{'script':'&lt;script&gt;&#13;
-function fetchUrl() {&#13;
-  var inputVal = document.getElementById('myInput').value;&#13;
-  const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;&#13;
-  fetch(url)&#13;
-    .then(response =&gt; response.json())&#13;
-    .then(data =&gt; {if(data.message == 'success'){orgText=document.getElementById('mySend').innerText;document.getElementById('mySend').innerText = data.message;setTimeout(function() { document.getElementById('mySend').innerText = orgText;}, 2000);}console.log(data);}).catch(error =&gt; console.error('Error fetching the URL:', error));}&lt;/script&gt;'}## --&gt;。</description><guid isPermaLink="true">https://cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
+&lt;!-- ##{'script':'&lt;script&gt;function fetchUrl() {var inputVal = document.getElementById('myInput').value;const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;fetch(url).then(response =&gt; response.json()).then(data =&gt; {if(data.message == 'success' ){orgText=document.getElementById('mySend').innerText;document.getElementById('mySend').innerText = data.message;setTimeout(function(){document.getElementById('mySend').innerText = orgText;},2000);}console.log(data);}).catch(error =&gt; console.error('Error fetching the URL:', error));}&lt;/script&gt;'}## --&gt;。</description><guid isPermaLink="true">https://cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>

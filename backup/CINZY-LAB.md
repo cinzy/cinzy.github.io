@@ -23,13 +23,8 @@
 
 [\[网站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb)
 
-`Gmeek-html<input type="text" id="myInput" placeholder="请给我留言..."><a id="mySend" onclick="fetchUrl()">发送</a>`
+`Gmeek-html<input type="text" id="myInput" placeholder="请给我留言...">
+<a id="mySend" style="cursor:pointer" onclick="fetchUrl()">发送</a>`
 
 
-<!-- ##{"script":"<script>
-function fetchUrl() {
-  var inputVal = document.getElementById('myInput').value;
-  const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;
-  fetch(url)
-    .then(response => response.json())
-    .then(data => {if(data.message == "success"){orgText=document.getElementById('mySend').innerText;document.getElementById('mySend').innerText = data.message;setTimeout(function() { document.getElementById('mySend').innerText = orgText;}, 2000);}console.log(data);}).catch(error => console.error('Error fetching the URL:', error));}</script>"}## -->
+<!-- ##{"script":"<script>function fetchUrl() {var inputVal = document.getElementById('myInput').value;const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;fetch(url).then(response => response.json()).then(data => {if(data.message == "success" ){orgText=document.getElementById('mySend').innerText;document.getElementById('mySend').innerText = data.message;setTimeout(function(){document.getElementById('mySend').innerText = orgText;},2000);}console.log(data);}).catch(error => console.error('Error fetching the URL:', error));}</script>"}## -->
