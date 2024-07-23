@@ -3,3 +3,5 @@ https://api.day.app/KeyXXXXXXXXXXXXXX/吃了吗
 
 AppStore获取
 https://apps.apple.com/us/app/bark-给你的手机发推送/id1403753865?l=zh-Hans-CN
+
+[这里有一个简单的试用](https://www.cinzy.com/about.html#liuyantume)
