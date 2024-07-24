@@ -2,7 +2,7 @@
 
 创建脚本文件让电脑自动工作,解放双手
 
-![autoall](https://www.cinzy.com/images/autoall.png)
+![autoall](https://www.cinzy.com/assets/autoall.png)
 
 # 下载连接
 
