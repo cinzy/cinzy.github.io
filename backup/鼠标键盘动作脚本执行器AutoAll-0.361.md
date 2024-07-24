@@ -1,10 +1,10 @@
-### 简介
+# 简介
 
 创建脚本文件让电脑自动工作,解放双手
 
-![autoall](https://www.cinzy.com/picx-images-hosting/autoall.lxv9yrjz.webp)
+![autoall](https://www.cinzy.com/images/autoall.png)
 
-### 下载连接
+# 下载连接
 
 ![fav](https://github.com/cinzy/cinzy.github.io/assets/33305897/fa43b70f-7ca7-4899-9146-264712f50447) [autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)
 MD5:f342120a747567f17c941bab310fb3d8
@@ -14,8 +14,12 @@ MD5:f342120a747567f17c941bab310fb3d8
 [东坡下载](http://www.uzzf.com/soft/467723.html)
 [IT之家](https://www.ithome.com/0/008/905.htm)
 
+# FAQ
 
-### 更新日志
+> 笔记本没有*ScrollLock键，怎么停止录制？*
+> V0.361上可以通过主界面点击新建按钮停止录制。
+
+# 更新日志
 
 V0.361  BETA 20100201
 ◎[修复]修复热键执行脚本指令在保存exe后失效的bug
