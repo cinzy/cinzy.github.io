@@ -29,7 +29,7 @@
 ## 友情链接
 [meekdai](https://blog.meekdai.com) 本博客框架作者，完全基于Github，设计思想独特，建议大家尝试
 [clicky](https://clicky.com) 本站使用的计数统计，有完善的报表 [\[查看本站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb) 
-[技术生产队]（http://weixin.qq.com/r/RxKXj9LE7I_TrZbs90dV) 一个硬件工程师的高级修养
+[技术生产队](http://weixin.qq.com/r/RxKXj9LE7I_TrZbs90dV)  一个硬件工程师的高级修养
 
 > [!TIP]
 > 申请互为友情链接
