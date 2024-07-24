@@ -1,9 +1,9 @@
 document.write("<style>\
 body{background-color:#ffffff;margin-top:0px}\
-body,a,#title td{font:12px ËÎÌå;color:#46673e;text-decoration:none;}\
+body,a,#title td{font:12px å®‹ä½“;color:#46673e;text-decoration:none;}\
 a:hover{color:#ffffff;background-color:#46673e}\
 #left {padding:0;width:150px;}\
-#left a{text-indent:10px;padding:8 0 5 0;width:150px;float:left;font:12px ËÎÌå;}\
+#left a{text-indent:10px;padding:8 0 5 0;width:150px;float:left;font:12px å®‹ä½“;}\
 #left span{text-indent:4px;padding:5 0 5 0;width:150px;float:left;font:14px arial;border-top:1px solid #46673e;border-bottom:1px solid #cccccc;background-color:#f0f0f0;font-weight:bold;color:#bbbbbb}\
 #left a:hover{color:#ffffff;background-color:#46673e;}\
 </style>");
@@ -12,14 +12,14 @@ function head()
 document.write("<table id=title width=100%  height=32px><tr height=18px><td width=20px></td>\
 <td rowspan=\"3\" width=200px style=\"font:32px Arial black;color:46673e;\">CINZY-LAB</td>\
 <td></td></tr><tr height=4px><td bgcolor=#46673e></td><td bgcolor=#46673e></td></tr><tr><td></td><td>\
-<a href=/>Ê×Ò³</a> | \
-<a href=/news.htm>×îĞÂ</a> | \
-<a href=/soft.htm><font color=ff0000>Èí¼ş</font></b></a> | \
-<a href=/Article/>ÎÄÕÂ</a> | \
-<a href=/webeffects/>ÍøÒ³ÌØĞ§</a> | \
-<a href=http://tieba.baidu.com/cinzy target=_blank>Ìù°É</a> | \
-<a href=http://blog.cinzy.com>²©¿Í</a><a href=http://feed.cinzy.com style=\"background-image:url('images/feed.gif');background-position:0px -1px;width:14px;height:14px\"></a> | \
-<a href=/about.htm>¹ØÓÚ</a>\
+<a href=/>é¦–é¡µ</a> | \
+<a href=/news.htm>æœ€æ–°</a> | \
+<a href=/soft.htm><font color=ff0000>è½¯ä»¶</font></b></a> | \
+<a href=/Article/>æ–‡ç« </a> | \
+<a href=/webeffects/>ç½‘é¡µç‰¹æ•ˆ</a> | \
+<a href=http://tieba.baidu.com/cinzy target=_blank>è´´å§</a> | \
+<a href=http://blog.cinzy.com>åšå®¢</a><a href=http://feed.cinzy.com style=\"background-image:url('images/feed.gif');background-position:0px -1px;width:14px;height:14px\"></a> | \
+<a href=/about.htm>å…³äº</a>\
 </td></tr></table>\
 <table border=0 cellspacing=0 cellpadding=0><tr><td valign=top>\
 ");
@@ -43,6 +43,6 @@ function left()
 }
 function foot()
 {
-document.write("</td></tr></table><div style=\"line-height:4px;height:4px;background-color:#46673e;margin:2px;\">&nbsp;</div><div style=\"font:12px Arial;color:46673e;\">&nbsp;&copy; 2010 CINZY-LAB <a href=http://www.miibeian.gov.cn target=_blank style=\"font:12px ËÎÌå;color:aaaaaa;\">¾©ICP±¸09073433ºÅ</a></div>");
+document.write("</td></tr></table><div style=\"line-height:4px;height:4px;background-color:#46673e;margin:2px;\">&nbsp;</div><div style=\"font:12px Arial;color:46673e;\">&nbsp;&copy; 2010 CINZY-LAB <a href=http://www.miibeian.gov.cn target=_blank style=\"font:12px å®‹ä½“;color:aaaaaa;\">äº¬ICPå¤‡09073433å·</a></div>");
 document.write("<script language=\"javascript\" type=\"text/javascript\" src=\"/count.js\"></script>");
 }
