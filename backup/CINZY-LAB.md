@@ -1,5 +1,3 @@
-[博客](http://www.cinzy.com)   [贴吧](https://tieba.baidu.com/cinzy) 
-
 ## 原创软件
 从单片机51汇编开始入门，纯汇编编写程控增益放大器，展具备示波能力，参加电子设计大赛得奖
 早期对程序有极致精简情节，写出了5K的串口调试助手，20K的鼠标键盘动作脚本执行器，有很多作品被时代淘汰
@@ -23,7 +21,8 @@
 
 > 欢迎交流讨论
 >
-> [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR) 
+> [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR)
+> [博客](http://www.cinzy.com)   [贴吧](https://tieba.baidu.com/cinzy) 
 
 
 
