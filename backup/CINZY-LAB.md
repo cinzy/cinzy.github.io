@@ -18,7 +18,7 @@
 | 正弦波表生成器                       | 5.12K  | 2008/3/7   | [可用](https://www.cinzy.com/post/geng-duo-yuan-chuang-ruan-jian.html#%E6%AD%A3%E5%BC%A6%E6%B3%A2%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8) |
 
 ## 联系方式
-
+> [!NOTE]
 > 欢迎交流讨论
 >
 > [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR)
@@ -35,7 +35,7 @@
 
 ## 版权声明
 
-> [! CAUTION]
+> [!CAUTION]
 > 作者原创软件全部免费，可以免费复制、分发，但仅限于学习研究使用，不可用于商业用途。`
 
 <!-- ##{"script":"<script>document.getElementById('user-content-liuyantome').innerHTML='<input type=text id=myInput placeholder=请留下您的网站连接www...> <a id=mySend style=cursor:pointer onclick=fetchUrl()>发送</a>';function fetchUrl() {fetch('https://ifconfig.me/all.json').then(res => res.json()).then((ipdata) => {var boxVal=document.getElementById('myInput').value;var inputVal = ipdata.ip_addr+':'+boxVal;console.log(inputVal);const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;fetch(url).then(response => response.json()).then(data => {if(data.message == 'success' ){orgText=boxVal;document.getElementById('myInput').value = '信息已送达';setTimeout(function(){document.getElementById('myInput').value = orgText;},2000);}console.log(data);}).catch(error => console.error('Error fetching the URL:', error));})}</script>"}## -->
