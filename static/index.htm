@@ -1,121 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="blog,github,software">
-<meta name="author" content="CINZY">
-<meta name="description" content="">
-<link rel="icon" href="https://www.cinzy.com/fav.ico">
-<link rel="icon" href="https://www.cinzy.com/fav.ico" type="image/svg+xml" />
+<meta name="keywords" content="辛仔实验室|InputAX | AutoAll | QAutoLog | CyBoost |ComDbg | Hex2Asm | Proxy++ | CyMd5,鼠标键盘,脚本执行器,拼音,打字辅助工具,">
 <title>CINZY-LAB</title>
-</head>
+<link title="RSS 2.0" type="application/rss+xml" href="http://feed.cinzy.com" rel="alternate" />
+<script language="javascript" type="text/javascript" src="c.js" charset="GBK"></script>
 <style>
-:root {--Fcolor: #000;--Bcolor: #fff;}
-body{width:100%;height:100%;margin:0;background-color:var(--Bcolor)}
-.avatar {
-    animation: light 4s ease-in-out infinite;
-    transition: 0.8s;
-    border-radius: 50%;
-    margin-top:0%;
-
-    width:24px;
-    height:24px;
-    background:url(https://www.cinzy.com/fav.ico) center center no-repeat;
-    background-color: #fff;
-}
-.avatar:hover {transform: scale(1.2) rotate(360deg);}
-
-.softimg {
-    animation: light 4s ease-in-out infinite;
-    transition: 0.8s;
-    border-radius: 1%;
-    margin-top:1%;
-    background-color: #fff;
-}
-.softimg:hover {transform: scale(1.2) rotate(360deg);}
-
-@keyframes light {
-    0%{box-shadow: 0 0 24px #fd7d7d;}
-    50%{box-shadow: 0 0 8px #fff;}
-    100%{box-shadow: 0 0 24px #fd7d7d;}
-}
-
-.title{font-size:16px;font-family:Monaco;}
-.title a{text-decoration:none;color: var(--Fcolor);}
-.flex{display: flex;justify-content:center;}
-.flex a{margin:16px;}
-.logo{display: flex;position:absolute;top:18px;left:10px;width:24px;height:24px;}
-
-.button{
-    padding: 0.4em 0.8em;
-    text-align: center;
-    text-decoration: none;
-    color: var(--Fcolor);
-    border: 0px solid var(--Fcolor);
-    font-size: 24px;
-    display: inline-block;
-    border-radius: 0.3em;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-    overflow: hidden;
-}
-.button:before {
-    content: "";
-    background-color: rgba(255,255,255,0.5);
-    height: 100%;
-    width: 3em;
-    display: block;
-    position: absolute;
-    top:0;
-    left:-4.5em;
-    transform:skewX(-45deg) translateX(0);
-    transition:none;
-}
-.button:hover {
-    background-color: var(--Fcolor);
-    color: var(--Bcolor);
-    border-bottom: 4px solid darken(var(--Fcolor), 10%);
-}
-.button:hover:before {
-    transform: skewX(-45deg) translateX(13.5em);
-    transition: all 0.5s ease-in-out;
-}
-
-.footer {margin:20px auto;text-align:center;font-size:small;color:var(--Fcolor);}
-
-@media (max-width: 560px) {#buttonList {flex-direction:column} #buttonList a{margin:8px;}}
+#SL {width:540px;overflow:hidden;margin-left:-10px;}
+#SL a,#SL span{background-repeat:no-repeat;text-decoration:none;}
+#SL a{position:relative;width:250px;height:60px;float:left;margin-left:14px;margin-top:9px;display:inline;}
+#SL a:hover{background-color:#ffffff;background-image:url(images/bgf.gif);background-position:-7px -4px}
+#SL span,#SL l1,#SL l2{position:absolute;display:block;}
+#SL span{background-image:url(images/bgicon.gif);top:6px;left:8px;width:48px; height:48px}
+#SL b,#SL .con{font-size:12px;left:64px;position:absolute;cursor:hand;}
+#SL b{top:14px;font-weight:bold;}
+#SL .con{top:34px}
+#SL a b{color:#46673e}
+#SL a:hover b{color:#56774e}
+#SL a .con{color:#A5A5A5}
+#SL a:hover .con{color:#666;}
+#SL .ico1{ background-position:0px 0px}
+#SL .ico2{ background-position:-48px 0px}
+#SL .ico3{ background-position:-96px 0px}
+#f1,#f2,#f3,#f4{height:1px;font-size:1px;overflow:hidden;background:#908a47;}
+#f1{margin:0 5px;}
+#f2{border-right:2px solid #908a47; border-left:2px solid #908a47; margin:0 3px;background:#f7f8f9;}
+#f3{border-right:1px solid #908a47; border-left:1px solid #908a47; margin:0 2px;background:#f7f8f9;}
+#f4{height:2px; border-right:1px solid #908a47; border-left:1px solid #908a47; margin:0 1px;background:#f7f8f9;}
+#f5{border-right:1px solid #908a47;border-left:1px solid #908a47;background:#f7f8f9;}
 </style>
-
 <body>
-<div class="logo"><div class="avatar"></div></div>
-<div class="flex" id="buttonList">
-    <a href="https://www.cinzy.com/index.htm" target="_blank" class="button">CINZY-LAB</a>
-    <a href="https://www.cinzy.com/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-AutoAll-0.361.html" target="_blank" class="button">AutoAll</a>
-    <a href="https://www.cinzy.com/post/bian-xi-chuan-kou-diao-shi-zhu-shou-COMDBG-0.3RC.html" target="_blank" class="button">COMDBG</a>
-    <a href="https://www.cinzy.com/" target="_blank" class="button">Blog</a>
-    <a href="https://www.cinzy.com/about.html" target="_blank" class="button">About</a>
-</div>
-<div class="flex"><a href="https://www.cinzy.com/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-AutoAll-0.361.html"><img src="https://www.cinzy.com/assets/autoall.png"></a></div>
-<div class="footer">Copyright 2024 CINZY-LAB</div>
-</body>
+<script>head();</script>
+<script>left();</script>
+<div style="height:12px;overflow:auto;padding-left:15px;margin:0px; font-size:12px;float:none; overflow:hidden">
+&nbsp;<a name=""></a>
 <script>
-var colorList=[
-  ["#0d7e9c","#d5ba9f"],// 孔雀蓝、浅驼色
-  ["#185a56","#fd7c2d"],// 深灰绿、橘橙色
-  ["#e5eb15","#53589a"],// 荧光黄、长春花蓝
-  ["#fbcd08","#022a99"],// 靓丽黄、克莱因蓝
-  ["#d5ba9f","#0d7e9c"],// 浅驼色、孔雀蓝
-  ["#fd7c2d","#185a56"],// 橘橙色、深灰绿
-  ["#53589a","#e5eb15"],// 长春花蓝、荧光黄
-  ["#022a99","#fbcd08"] // 克莱因蓝、靓丽黄
-]
-colorNum=Math.floor(Math.random()*colorList.length);
-console.log(colorList[colorNum]);
-document.body.style.setProperty("--Fcolor", colorList[colorNum][0]);
-document.body.style.setProperty("--Bcolor", colorList[colorNum][1]);
-!function(){function n(n,e,t){return n.getAttribute(e)||t}function e(n){return document.getElementsByTagName(n)}function t(){var t=e("script"),o=t.length,i=t[o-1];return{l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",99)}}function o(){a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,c=m.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight}function i(){r.clearRect(0,0,a,c);var n,e,t,o,m,l;s.forEach(function(i,x){for(i.x+=i.xa,i.y+=i.ya,i.xa*=i.x>a||i.x<0?-1:1,i.ya*=i.y>c||i.y<0?-1:1,r.fillRect(i.x-.5,i.y-.5,1,1),e=x+1;e<u.length;e++)n=u[e],null!==n.x&&null!==n.y&&(o=i.x-n.x,m=i.y-n.y,l=o*o+m*m,l<n.max&&(n===y&&l>=n.max/2&&(i.x-=.03*o,i.y-=.03*m),t=(n.max-l)/n.max,r.beginPath(),r.lineWidth=t/2,r.strokeStyle="rgba("+d.c+","+(t+.2)+")",r.moveTo(i.x,i.y),r.lineTo(n.x,n.y),r.stroke()))}),x(i)}var a,c,u,m=document.createElement("canvas"),d=t(),l="c_n"+d.l,r=m.getContext("2d"),x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(n){window.setTimeout(n,1e3/45)},w=Math.random,y={x:null,y:null,max:2e4};m.id=l,m.style.cssText="position:fixed;top:0;left:0;z-index:"+d.z+";opacity:"+d.o,e("body")[0].appendChild(m),o(),window.onresize=o,window.onmousemove=function(n){n=n||window.event,y.x=n.clientX,y.y=n.clientY},window.onmouseout=function(){y.x=null,y.y=null};for(var s=[],f=0;d.n>f;f++){var h=w()*a,g=w()*c,v=2*w()-1,p=2*w()-1;s.push({x:h,y:g,xa:v,ya:p,max:6e3})}u=s.concat([y]),setTimeout(function(){i()},100)}();
+function extsf(i,n,v,d,u)
+{document.write("<p><a name=\""+i+"\" href=\""+u+"\">您来自软件 <b>"+n+"</b> 最新版本:"+v+"更新日期:"+d+"</a></p>");}
+extsf("comdbg","便携串口调试助手","V0.3 RC","2008-06-11","electrons.htm#comdbg");
+extsf("keiluv3","KEIL UV3 绿色精简版","RC2","2008-06-16","rips.htm#keiluv3");
+extsf("autoall","鼠标键盘动作脚本执行器","BETA 0.361","2009-02-01","gems.htm#autoall");
+extsf("Qautolog","QQ自动登陆快捷方式创建器","V0.2","2008-10-17","gems.htm#QAutoLog");
+extsf("InputAX","拼音打字修改辅助工具","BETA 0.5","2009-12-03","gems.htm#InputAX");
+extsf("GetNodId","NOD ID 获取器","0.50","2009-7-02","gems.htm#GetNodId");
 </script>
-<script async data-id="101457243" src="//static.getclicky.com/js"></script>
+</div>
+<div id="SL"> 
+<a href="gems.htm#AutoALL"><span style="background-position:-96 0"></span>
+	<b>鼠标键盘脚本执行器 0.361</b></h1>
+	<div class=con>按照你的意思自动操作电脑</div>
+</a>
+<a href="gems.htm#InputAX"><span style="background-position:-96 0"></span>
+	<b>拼音打字辅助工具 0.5</b>
+	<div class=con>一不小心打错了字,有我来对付</div>
+</a>
+<a href="gems.htm#GetNodId"><span style="background-position:-96 0"></span>
+	<b>NOD ID 获取器</b>
+	<div class=con>升级你的NOD32杀毒软件</div>
+</a>
+<a href="electrons.htm#Hex2Asm"><span style="background-position:-96 0"></span>
+	<b>51反汇编工具</b>
+	<div class=con>反编译Hex文件为asm源码</div>
+</a>
+<a href="/blog/"><span style="background-position:-96 0"></span>
+	<b>CINZY-BLOG 博客</b>
+	<div class=con>免费、实用软件|编程经验、例程</div>
+</a>
+</div>
+
+<div style="padding:5px">
+  <div id="f1"></div><div id="f2"></div><div id="f3"></div><div id="f4"></div>
+  <div id="f5" style="text-align:center;padding-top:6px;">
+<table width=500  style="font:12px '宋体'"><tr><td valign=top>
+	<a href="/webeffects/"><b>【网页特效(经典)】</b></a><br>
+	<a target="_blank" href="/webeffects/265eyes/">265随鼠标转动的小眼睛(好多人都纳闷)</a><br>
+	<a target="_blank" href="/webeffects/google_bar/">谷歌的导航条(本来以为是flash做的)</a><br>
+	<a target="_blank" href="/webeffects/mouse_light/">很有特色的荧光鼠标(看书也得打手电筒)</a><br>
+	<a target="_blank" href="/webeffects/flash_pic/">酷而实用的图片特效</a><br>
+
+</td><td valign=top>
+	<b>【友情链接】</b><br>
+	<a href="http://dwing.wex.cn/" target=_blank>dwing's Homepage</a><br>
+	<a href="http://www.greendown.cn/" target=_blank>绿色下载站</a><br>
+	<a href="http://www.ec66.com/" target=_blank>中国电子</a><br>
+	<a href="http://netman123.cn/" target=_blank>网络人</a><br>
+	<br>
+	<a href="http://www.cinzy.com/post/friendlink.html" target=_blank>[申请]</a>
+</td></tr></table>
+	<div style="border-top:1px dotted #cccccc">
+	<a href="tv.asp">很流畅的网络电视</a>
+	<a href="/demo/清空回收站.rar">清空回收站(1K)</a>
+	<a href="/demo/键盘记录器演示.rar">键盘记录器(3K)</a>
+	<a href="/demo/音量控制.rar">音量控制(3K)</a>
+	<a href="/demo/lock(input cinzy for unlock).rar">键盘锁(2K)</a>
+	</div>
+	</div>
+  <div id="f4"></div><div id="f3"></div><div id="f2"></div><div id="f1"></div></div>
+<div style="font:12px '宋体'">
+	<center>  
+		<a href="soft.htm#InputAX">InputAX</a> |
+		  <a href="soft.htm#AutoAll">AutoAll</a> |
+		  <a href="soft.htm#QAutoLog">QAutoLog</a> |
+		  <a href="soft.htm#CyBoost">CyBoost</a> |
+		  <a href="soft.htm#ComDbg">ComDbg</a> | 
+		  <a href="soft.htm#Hex2Asm">Hex2Asm</a> | 
+		  <a href="soft.htm#Proxypp">Proxy++</a> | 
+		  <a href="soft.htm#CyMd5">CyMd5</a>
+	</center>
+</div>
+</td><td style="padding:0px">
+</td><td>
+<script>foot();</script>
+</body>
 </html>
