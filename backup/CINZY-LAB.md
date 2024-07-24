@@ -29,12 +29,13 @@
 ## 友情链接
 [meekdai](https://blog.meekdai.com) 本博客框架作者，完全基于Github，设计思想独特，建议大家尝试
 [clicky](https://clicky.com) 本站使用的计数统计，有完善的报表 [\[查看本站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb) 
-#### 申请互为友情链接
-<p id=user-content-liuyantome></p>
+> [!TIP]
+> 申请互为友情链接
+> <p id=user-content-liuyantome></p>
 
 ## 版权声明
 
-> [!WARNING]
+> [! CAUTION]
 > 作者原创软件全部免费，可以免费复制、分发，但仅限于学习研究使用，不可用于商业用途。`
 
 <!-- ##{"script":"<script>document.getElementById('user-content-liuyantome').innerHTML='<input type=text id=myInput placeholder=请留下您的网站连接www...> <a id=mySend style=cursor:pointer onclick=fetchUrl()>发送</a>';function fetchUrl() {fetch('https://ifconfig.me/all.json').then(res => res.json()).then((ipdata) => {var boxVal=document.getElementById('myInput').value;var inputVal = ipdata.ip_addr+':'+boxVal;console.log(inputVal);const url = 'https://api.day.app/AKry5gqYzpJNszHpZFsVPQ/' + inputVal;fetch(url).then(response => response.json()).then(data => {if(data.message == 'success' ){orgText=boxVal;document.getElementById('myInput').value = '信息已送达';setTimeout(function(){document.getElementById('myInput').value = orgText;},2000);}console.log(data);}).catch(error => console.error('Error fetching the URL:', error));})}</script>"}## -->
