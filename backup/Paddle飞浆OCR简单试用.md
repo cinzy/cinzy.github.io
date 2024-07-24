@@ -92,4 +92,4 @@ pip install paddlepaddle==2.5.2
 
 后续考虑该模型的实际应用，欢迎小伙伴留言提供思路
 
-<!-- ##{"script":"<script src='/js/toc.js'></script>"}## -->
+<!-- ##{"script":"<script src='/assets/toc.js'></script>"}## -->
