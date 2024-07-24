@@ -10,14 +10,14 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# 环境
+<meta name="description" content="## 环境
 
 ```bash
 $ python --version
 Python 3.10.12
 ```
 
-# 安装
+## 安装
 
 ```bash
 pip install paddlepaddle paddleocr
@@ -25,7 +25,7 @@ pip install paddlepaddle paddleocr
 
 安装缓慢或无法下载请参考 [**全平台命令行换源工具**](https://www.cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html) 安装chsrc工具，然后执行`./chsrc-x64-linux list pip`
 
-# 试用
+## 试用
 
 提前准备一个图像文件`XXX.jpg`，使用python执行如下代码
 
@@ -44,14 +44,14 @@ for i in range(len(result[0])):
 
 将上述代码保存为`ocr.py`,然后执行`python3 ocr.py`，首次运行会联网加载模型文件。">
 <meta property="og:title" content="Paddle飞浆OCR简单试用">
-<meta property="og:description" content="# 环境
+<meta property="og:description" content="## 环境
 
 ```bash
 $ python --version
 Python 3.10.12
 ```
 
-# 安装
+## 安装
 
 ```bash
 pip install paddlepaddle paddleocr
@@ -59,7 +59,7 @@ pip install paddlepaddle paddleocr
 
 安装缓慢或无法下载请参考 [**全平台命令行换源工具**](https://www.cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html) 安装chsrc工具，然后执行`./chsrc-x64-linux list pip`
 
-# 试用
+## 试用
 
 提前准备一个图像文件`XXX.jpg`，使用python执行如下代码
 
@@ -130,13 +130,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>环境</h1>
+<div class="markdown-body" id="postBody"><h2>环境</h2>
 <div class="highlight highlight-source-shell"><pre class="notranslate">$ python --version
 Python 3.10.12</pre></div>
-<h1>安装</h1>
+<h2>安装</h2>
 <div class="highlight highlight-source-shell"><pre class="notranslate">pip install paddlepaddle paddleocr</pre></div>
 <p>安装缓慢或无法下载请参考 <a href="https://www.cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html" rel="nofollow"><strong>全平台命令行换源工具</strong></a> 安装chsrc工具，然后执行<code class="notranslate">./chsrc-x64-linux list pip</code></p>
-<h1>试用</h1>
+<h2>试用</h2>
 <p>提前准备一个图像文件<code class="notranslate">XXX.jpg</code>，使用python执行如下代码</p>
 <div class="highlight highlight-source-shell"><pre class="notranslate">import cv2
 
@@ -165,8 +165,8 @@ C
 发送</pre></div>
 <p>图片内容如下</p>
 <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/63f079de30b985ec6d2f61a4ac714e1bc464a19a367bdf8d6ead5d704a79a704/68747470733a2f2f63696e7a792e6769746875622e696f2f706963782d696d616765732d686f7374696e672f636f6d6462672e32646f6b6669326467712e77656270"><img src="https://camo.githubusercontent.com/63f079de30b985ec6d2f61a4ac714e1bc464a19a367bdf8d6ead5d704a79a704/68747470733a2f2f63696e7a792e6769746875622e696f2f706963782d696d616765732d686f7374696e672f636f6d6462672e32646f6b6669326467712e77656270" alt="comdbg.png" data-canonical-src="https://cinzy.github.io/picx-images-hosting/comdbg.2dokfi2dgq.webp" style="max-width: 100%;"></a></p>
-<h1>问题解决</h1>
-<h2>执行报如下错误</h2>
+<h2>问题解决</h2>
+<h3>执行报错</h3>
 <div class="highlight highlight-source-shell"><pre class="notranslate">$ python3 ocr.py
 [2024/06/28 14:57:02] ppocr DEBUG: Namespace(help=<span class="pl-s"><span class="pl-pds">'</span>==SUPPRESS==<span class="pl-pds">'</span></span>, use_gpu=False, use_xpu=False, use_npu=Fal)
 

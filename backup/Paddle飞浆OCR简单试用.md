@@ -1,11 +1,11 @@
-# 环境
+## 环境
 
 ```bash
 $ python --version
 Python 3.10.12
 ```
 
-# 安装
+## 安装
 
 ```bash
 pip install paddlepaddle paddleocr
@@ -13,7 +13,7 @@ pip install paddlepaddle paddleocr
 
 安装缓慢或无法下载请参考 [**全平台命令行换源工具**](https://www.cinzy.com/post/quan-ping-tai-ming-ling-xing-huan-yuan-gong-ju.html) 安装chsrc工具，然后执行`./chsrc-x64-linux list pip`
 
-# 试用
+## 试用
 
 提前准备一个图像文件`XXX.jpg`，使用python执行如下代码
 
@@ -53,9 +53,9 @@ C
 
 ![comdbg.png](https://cinzy.github.io/picx-images-hosting/comdbg.2dokfi2dgq.webp)
 
-# 问题解决
+## 问题解决
 
-## 执行报如下错误
+### 执行报错
 
 ```bash
 $ python3 ocr.py
