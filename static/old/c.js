@@ -28,13 +28,13 @@ document.write("<table id=title width=100%  height=32px><tr height=18px><td widt
 function left()
 {document.write("<div id=left>\
 <span>Homepage</span>\
-<a href=/>Homepage</a>\
-<a href=/news.htm>News/Updata</a>\
+<a href=index.htm>Homepage</a>\
+<a href=news.htm>News/Updata</a>\
 <span>My Works</span>\
-<a href=/electrons.htm>Electrons</a>\
-<a href=/gems.htm>GEMS SOFT</a>\
-<a href=/rips.htm>Rips&Chinesize</a>\
-<a href=/webeffects/>Web Effects</a>\
+<a href=electrons.htm>Electrons</a>\
+<a href=gems.htm>GEMS SOFT</a>\
+<a href=rips.htm>Rips&Chinesize</a>\
+<a href=webeffects/>Web Effects</a>\
 <span>My links</span>\
 <a href=http://tieba.baidu.com/cinzy target=_blank>FORUM</a>\
 <a href=http://blog.cinzy.com>BLOG</a>\
