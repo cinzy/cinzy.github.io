@@ -28,7 +28,7 @@
 
 ## 友情链接
 [meekdai](https://blog.meekdai.com) 本博客框架作者，完全基于Github，设计思想独特，建议大家尝试
-[clicky](https://clicky.com) [\[查看本站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb) 本站使用的计数统计，有完善的报表
+[clicky](https://clicky.com) 本站使用的计数统计，有完善的报表 [\[查看本站统计](https://clicky.com/?site_id=101457243)[\]](https://clicky.com/?site_id=101457243&sitekey=88445d38b6fc6aeb) 
 #### 申请互为友情链接
 <p id=user-content-liuyantome></p>
 
