@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Wed, 24 Jul 2024 08:26:06 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>免费的iOS推送消息Bark</title><link>https://www.cinzy.com/post/mian-fei-de-iOS-tui-song-xiao-xi-Bark.html</link><description>自己网站或家庭的IoT网络有给自己发送通知的需求，可以试试这个软件，使用起来非常简单，无需注册帐号，安装即可用，仅需访问软件给分配URL后面加消息即可发送到手机，格式如下：&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo64.jpg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Wed, 24 Jul 2024 08:28:47 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>免费的iOS推送消息Bark</title><link>https://www.cinzy.com/post/mian-fei-de-iOS-tui-song-xiao-xi-Bark.html</link><description>自己网站或家庭的IoT网络有给自己发送通知的需求，可以试试这个软件，使用起来非常简单，无需注册帐号，安装即可用，仅需访问软件给分配URL后面加消息即可发送到手机，格式如下：&#13;
 https://api.day.app/KeyXXXXXXXXXXXXXX/吃了吗&#13;
 &#13;
 AppStore获取&#13;
@@ -434,4 +434,5 @@ MD5:f342120a747567f17c941bab310fb3d8&#13;
 &#13;
 ## 版权声明&#13;
 &#13;
-`作者原创软件全部免费，可以免费复制、分发，但仅限于学习研究使用，不可用于商业用途。</description><guid isPermaLink="true">https://www.cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
+&gt; [!WARNING]
+&gt; 作者原创软件全部免费，可以免费复制、分发，但仅限于学习研究使用，不可用于商业用途。</description><guid isPermaLink="true">https://www.cinzy.com/about.html</guid><pubDate>Mon, 24 Jun 2024 14:10:24 +0000</pubDate></item></channel></rss>
