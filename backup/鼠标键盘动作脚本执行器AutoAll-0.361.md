@@ -8,7 +8,7 @@
 
 ![fav](https://github.com/cinzy/cinzy.github.io/assets/33305897/fa43b70f-7ca7-4899-9146-264712f50447) [autoall.zip](https://github.com/user-attachments/files/15964020/autoall.zip)
 MD5:f342120a747567f17c941bab310fb3d8
-其他连接
+## 其他连接
 [华军软件园](https://m.onlinedown.net/soft/975927.htm)
 [极速下载站](https://www.mydown.com/soft/254/726017754.shtml)
 [东坡下载](http://www.uzzf.com/soft/467723.html)
