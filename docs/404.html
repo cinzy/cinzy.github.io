@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="blog,github,software">
+<meta name="author" content="CINZY">
+<meta name="description" content="">
+<link rel="icon" href="https://www.cinzy.com/fav.ico">
+<link rel="icon" href="https://www.cinzy.com/fav.ico" type="image/svg+xml" />
+<title>CINZY-LAB</title>
+</head>
+<style>
+:root {--Fcolor: #000;--Bcolor: #fff;}
+body{width:100%;height:100%;margin:0;background-color:var(--Bcolor)}
+.title{font-size:16px;font-family:Monaco;}
+.title a{text-decoration:none;color: var(--Fcolor);}
+.flex{display: flex;justify-content:center;}
+.flex a{margin:16px;}
+.logo{display: flex;position:absolute;top:18px;left:10px;width:24px;height:24px;}
+.footer {margin:20px auto;text-align:center;font-size:small;color:var(--Fcolor);}
+
+.avatar {
+  animation: light 4s ease-in-out infinite;
+  transition: 0.8s;
+  border-radius: 50%;
+  margin-top:-6px;
+  width:24px;
+  height:24px;
+  background:url(https://www.cinzy.com/fav.ico) center center no-repeat;
+  background-color: #fff;
+}
+.avatar:hover {transform: scale(1.2) rotate(360deg);}
+
+.h404 {
+    transition: 0.8s;
+    border-radius: 1%;
+    margin-top:1%;
+    font-size: 240px;
+    color: var(--Bcolor);
+    text-shadow: 0 0 30px var(--Fcolor);
+}
+@keyframes light {
+    0%{box-shadow: 0 0 5px var(--Fcolor);}
+    50%{box-shadow: 0 0 30px var(--Fcolor);}
+    100%{box-shadow: 0 0 5px var(--Fcolor);}
+}
+
+.button{
+    padding: 0.4em 0.4em 0.4em 0.4em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--Fcolor);
+    border: 0px solid var(--Fcolor);
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 0.3em;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px var(--Fcolor);
+    animation: light 4s ease-in-out infinite;
+}
+.button:before {
+    content: "";
+    background-color: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top:0;
+    left:-4.5em;
+    transform:skewX(-45deg) translateX(0);
+    transition:none;
+}
+.button:hover {
+    background-color: var(--Fcolor);
+    color: var(--Bcolor);
+    border-bottom: 4px solid darken(var(--Fcolor), 10%);
+}
+.button:hover:before {
+    transform: skewX(-45deg) translateX(13.5em);
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 560px) {#buttonList {flex-direction:column} #buttonList a{margin:8px;}}
+</style>
+
+<body>
+<div class="logo"><div class="avatar"></div></div>
+<div class="flex" id="buttonList">
+    <a href="https://cinzy.com" class="button">CINZY-LAB</a>
+    <a href="https://www.cinzy.com/post/shu-biao-jian-pan-dong-zuo-jiao-ben-zhi-xing-qi-AutoAll-0.361.html" target="_blank" class="button">AutoAll</a>
+    <a href="https://www.cinzy.com/post/geng-duo-yuan-chuang-ruan-jian.html" target="_blank" class="button">MySoft</a>
+    <a href="https://cinzy.com/txt2img" class="button">AI</a>
+    <a href="https://www.cinzy.com/" target="_blank" class="button">Blog</a>
+    <a href="https://www.cinzy.com/about.html" target="_blank" class="button">About</a>
+</div>
+<div class="flex"><p class="h404">404</p></div>
+<div class="footer">Copyright 2024 CINZY-LAB</div>
+</body>
+<script>
+var colorList=[
+  ["#0d7e9c","#d5ba9f"],// 孔雀蓝、浅驼色
+  ["#185a56","#fd7c2d"],// 深灰绿、橘橙色
+  ["#e5eb15","#53589a"],// 荧光黄、长春花蓝
+  ["#fbcd08","#022a99"],// 靓丽黄、克莱因蓝
+  ["#d5ba9f","#0d7e9c"],// 浅驼色、孔雀蓝
+  ["#fd7c2d","#185a56"],// 橘橙色、深灰绿
+  ["#53589a","#e5eb15"],// 长春花蓝、荧光黄
+  ["#022a99","#fbcd08"] // 克莱因蓝、靓丽黄
+]
+colorNum=Math.floor(Math.random()*colorList.length);
+console.log(colorList[colorNum]);
+document.body.style.setProperty("--Fcolor", colorList[colorNum][0]);
+document.body.style.setProperty("--Bcolor", colorList[colorNum][1]);
+!function(){function n(n,e,t){return n.getAttribute(e)||t}function e(n){return document.getElementsByTagName(n)}function t(){var t=e("script"),o=t.length,i=t[o-1];return{l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",99)}}function o(){a=m.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,c=m.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight}function i(){r.clearRect(0,0,a,c);var n,e,t,o,m,l;s.forEach(function(i,x){for(i.x+=i.xa,i.y+=i.ya,i.xa*=i.x>a||i.x<0?-1:1,i.ya*=i.y>c||i.y<0?-1:1,r.fillRect(i.x-.5,i.y-.5,1,1),e=x+1;e<u.length;e++)n=u[e],null!==n.x&&null!==n.y&&(o=i.x-n.x,m=i.y-n.y,l=o*o+m*m,l<n.max&&(n===y&&l>=n.max/2&&(i.x-=.03*o,i.y-=.03*m),t=(n.max-l)/n.max,r.beginPath(),r.lineWidth=t/2,r.strokeStyle="rgba("+d.c+","+(t+.2)+")",r.moveTo(i.x,i.y),r.lineTo(n.x,n.y),r.stroke()))}),x(i)}var a,c,u,m=document.createElement("canvas"),d=t(),l="c_n"+d.l,r=m.getContext("2d"),x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(n){window.setTimeout(n,1e3/45)},w=Math.random,y={x:null,y:null,max:2e4};m.id=l,m.style.cssText="position:fixed;top:0;left:0;z-index:"+d.z+";opacity:"+d.o,e("body")[0].appendChild(m),o(),window.onresize=o,window.onmousemove=function(n){n=n||window.event,y.x=n.clientX,y.y=n.clientY},window.onmouseout=function(){y.x=null,y.y=null};for(var s=[],f=0;d.n>f;f++){var h=w()*a,g=w()*c,v=2*w()-1,p=2*w()-1;s.push({x:h,y:g,xa:v,ya:p,max:6e3})}u=s.concat([y]),setTimeout(function(){i()},100)}();
+</script>
+<script async data-id="101457243" src="//static.getclicky.com/js"></script>
+</html>
