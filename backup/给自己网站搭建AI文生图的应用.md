@@ -1,4 +1,4 @@
-本程序利用cloudflare提供的服务搭建，支持api调用，完整演示页面请见https://cinzy.com/txt2img
+本程序利用cloudflare提供的服务搭建，支持api调用，[完整演示页面](https://cinzy.com/txt2img)
 
 <div id=user-content-txt2img></div>
 
