@@ -1,5 +1,7 @@
 本程序利用cloudflare提供的服务搭建，支持api调用，打开[完整演示页面](https://cinzy.com/txt2img)
-提示词支持英文，后续会推出一个提示词优化的应用
+~~提示词支持英文，后续会推出一个提示词优化的应用~~
+提示词优化已经推出，见：http:cinzy.com/txt2img
+
 > [!TIP]
 > 在下面框中输入提示词，建议输入英文
 > <p id=user-content-txt2img></p>

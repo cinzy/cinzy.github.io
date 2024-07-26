@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/avatar.svg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Fri, 26 Jul 2024 08:28:30 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>给自己网站搭建AI文生图应用</title><link>https://www.cinzy.com/post/gei-zi-ji-wang-zhan-da-jian-AI-wen-sheng-tu-ying-yong.html</link><description>本程序利用cloudflare提供的服务搭建，支持api调用，打开[完整演示页面](https://cinzy.com/txt2img)&#13;
-提示词支持英文，后续会推出一个提示词优化的应用&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>CINZY-LAB，老站重启</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/avatar.svg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Fri, 26 Jul 2024 08:47:41 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>给自己网站搭建AI文生图应用</title><link>https://www.cinzy.com/post/gei-zi-ji-wang-zhan-da-jian-AI-wen-sheng-tu-ying-yong.html</link><description>本程序利用cloudflare提供的服务搭建，支持api调用，打开[完整演示页面](https://cinzy.com/txt2img)&#13;
+~~提示词支持英文，后续会推出一个提示词优化的应用~~&#13;
+提示词优化已经推出，见：http:cinzy.com/txt2img&#13;
+&#13;
 &gt; [!TIP]&#13;
 &gt; 在下面框中输入提示词，建议输入英文&#13;
 &gt; &lt;p id=user-content-txt2img&gt;&lt;/p&gt;&#13;
