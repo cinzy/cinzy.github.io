@@ -15,7 +15,8 @@
 
 > [!TIP]
 > 在下面框中输入提示词，建议输入英文
-> <p id=user-content-txt2img></p>
+
+<p id=user-content-txt2img></p>
 
 <!-- ##{'script':'<script>document.getElementById('user-content-txt2img').innerHTML='<div class=container><input type=text id=prompt value=dog rows=3 /> <a id=submit-button title=使用的是sd文生图模型！ data-umami-event=生成图片 style=cursor:pointer>开始AI生成图片</a><p></p><div class=aiimage id=image-container style=text-align:center;><div class=progress-bar style=display:none;><p></p><center>生成过程大概需要10秒</center></div></div></div>';const promptInput = document.getElementById('prompt'); const submitButton = document.getElementById('submit-button'); const imageContainer = document.getElementById('image-container'); const progressBar = document.querySelector('.progress-bar'); const progressBarInner = progressBar.querySelector('.progress-bar-inner'); submitButton.addEventListener('click', async () => { console.log('abc'); const prompt = promptInput.value; progressBar.style.display = 'block'; const requestBody = { content: prompt, }; const response = await fetch('https://cinzy.com/txt2img/'+prompt, { method: 'POST', headers: { 'Content-Type': 'application/json', }, body: JSON.stringify(requestBody), }); if (response.ok) { console.log(response); const imageBlob = await response.blob(); const imageUrl = URL.createObjectURL(imageBlob); const image = document.createElement('img'); image.src = imageUrl; imageContainer.insertBefore(image, imageContainer.children[1]); progressBar.style.display = 'none'; } else { alert('Error generating image'); } });</script>','style':'<style>.container{max-width:100%;margin:10px 10px 10px 10px;padding: 10px;}.aiimage {  width: 380px;max-width: 380px;border-radius: 8px;}.aiimage img {  max-width: 380px;max-height: 380px;border-radius: 8px;box-shadow: 0 0 15px #aaaaaa;}.progress-bar {  width: 380px;max-width: 380px;height: 380px;max-height: 380px;margin: auto;border-radius: 8px;overflow: hidden;color:  #FFFFFF;background-color: #aaaaaa;box-shadow: 0 0 15px #aaaaaa;margin: auto;position: relative;animation: move 1s infinite alternate;}@keyframes move {0% {top: 0;}  100% {top: calc(20px);}}</style>'}## -->。">
 <meta property="og:title" content="给自己网站搭建AI文生图应用">
@@ -24,7 +25,8 @@
 
 > [!TIP]
 > 在下面框中输入提示词，建议输入英文
-> <p id=user-content-txt2img></p>
+
+<p id=user-content-txt2img></p>
 
 <!-- ##{'script':'<script>document.getElementById('user-content-txt2img').innerHTML='<div class=container><input type=text id=prompt value=dog rows=3 /> <a id=submit-button title=使用的是sd文生图模型！ data-umami-event=生成图片 style=cursor:pointer>开始AI生成图片</a><p></p><div class=aiimage id=image-container style=text-align:center;><div class=progress-bar style=display:none;><p></p><center>生成过程大概需要10秒</center></div></div></div>';const promptInput = document.getElementById('prompt'); const submitButton = document.getElementById('submit-button'); const imageContainer = document.getElementById('image-container'); const progressBar = document.querySelector('.progress-bar'); const progressBarInner = progressBar.querySelector('.progress-bar-inner'); submitButton.addEventListener('click', async () => { console.log('abc'); const prompt = promptInput.value; progressBar.style.display = 'block'; const requestBody = { content: prompt, }; const response = await fetch('https://cinzy.com/txt2img/'+prompt, { method: 'POST', headers: { 'Content-Type': 'application/json', }, body: JSON.stringify(requestBody), }); if (response.ok) { console.log(response); const imageBlob = await response.blob(); const imageUrl = URL.createObjectURL(imageBlob); const image = document.createElement('img'); image.src = imageUrl; imageContainer.insertBefore(image, imageContainer.children[1]); progressBar.style.display = 'none'; } else { alert('Error generating image'); } });</script>','style':'<style>.container{max-width:100%;margin:10px 10px 10px 10px;padding: 10px;}.aiimage {  width: 380px;max-width: 380px;border-radius: 8px;}.aiimage img {  max-width: 380px;max-height: 380px;border-radius: 8px;box-shadow: 0 0 15px #aaaaaa;}.progress-bar {  width: 380px;max-width: 380px;height: 380px;max-height: 380px;margin: auto;border-radius: 8px;overflow: hidden;color:  #FFFFFF;background-color: #aaaaaa;box-shadow: 0 0 15px #aaaaaa;margin: auto;position: relative;animation: move 1s infinite alternate;}@keyframes move {0% {top: 0;}  100% {top: calc(20px);}}</style>'}## -->。">
 <meta property="og:type" content="article">
@@ -83,8 +85,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><p>本程序利用cloudflare提供的服务搭建，支持api调用，打开<a href="https://cinzy.com/txt2img" rel="nofollow">完整演示页面</a><br>
 <del>提示词支持英文，后续会推出一个提示词优化的应用</del> 提示词优化已经推出，见：<a href="https://cinzy.com/txt2img" rel="nofollow">https//:cinzy.com/txt2img</a></p>
 <div class="markdown-alert markdown-alert-tip"><p class="markdown-alert-title"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p>在下面框中输入提示词，建议输入英文</p>
-<p id="user-content-txt2img"></p>
 </div>
+<p id="user-content-txt2img"></p>
 </div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
