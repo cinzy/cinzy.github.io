@@ -17,7 +17,8 @@
 | 正弦波表生成器                       | 5.12K  | 2008/3/7   | [可用](https://www.cinzy.com/post/geng-duo-yuan-chuang-ruan-jian.html#%E6%AD%A3%E5%BC%A6%E6%B3%A2%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8) |
 
 ## 联系方式
-![cinzy](https://www.cinzy.com/avatar.svg)
+`Gmeek-html<img width=160 src="https://www.cinzy.com/avatar.svg">`
+![cinzy]()
 > [!NOTE]
 > 欢迎交流讨论
 >
