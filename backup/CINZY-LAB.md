@@ -19,7 +19,7 @@
 ## 联系方式
 > [!NOTE]
 > 欢迎交流讨论
-> `Gmeek-html<img width=100 src="https://www.cinzy.com/avatar.svg">`
+> <img width=100 src="https://www.cinzy.com/avatar.svg">
 > [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR) [博客](http://www.cinzy.com)   [贴吧](https://tieba.baidu.com/cinzy) 
 
 
