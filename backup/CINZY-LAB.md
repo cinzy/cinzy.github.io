@@ -18,7 +18,6 @@
 
 ## 联系方式
 `Gmeek-html<img width=160 src="https://www.cinzy.com/avatar.svg">`
-![cinzy]()
 > [!NOTE]
 > 欢迎交流讨论
 >
