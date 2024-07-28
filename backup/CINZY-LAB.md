@@ -17,9 +17,8 @@
 | 正弦波表生成器                       | 5.12K  | 2008/3/7   | [可用](https://www.cinzy.com/post/geng-duo-yuan-chuang-ruan-jian.html#%E6%AD%A3%E5%BC%A6%E6%B3%A2%E8%A1%A8%E7%94%9F%E6%88%90%E5%99%A8) |
 
 ## 联系方式
-> [!NOTE]
 > 欢迎交流讨论
-> `Gmeek-html <a href="http://cinzy.com"><img width=100 src="https://www.cinzy.com/avatar.svg"></a> <a href="https://weibo.com/u/1719478201"><img width=100 src="https://www.cinzy.com/assets/sina-logo.svg"></a>`
+> `Gmeek-html <a href="http://cinzy.com"><img width=32 src="https://www.cinzy.com/avatar.svg"></a> <a href="https://weibo.com/u/1719478201"><img width=32 src="https://www.cinzy.com/assets/sina-logo.svg"></a> <a href="https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR"><img width=100 src="https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp"></a> `
 
 > [![新浪微博](https://cinzy.github.io/picx-images-hosting/sina_weibo22x22.1lbowbwzxn.webp)](https://weibo.com/u/1719478201) [![QQ群](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=NOdmlPd_BSVTG4FPbq9z1BisjR7lcBg-&jump_from=webapi&authKey=2DsccVNFlTlJ8M58VpasTuCRqOqCLLDai1r2LJwNj4+0S8/C8zAl+11wpd0eYLxR) [博客](http://www.cinzy.com)   [贴吧](https://tieba.baidu.com/cinzy) 
 
