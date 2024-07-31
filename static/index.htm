@@ -401,7 +401,7 @@ document.body.style.setProperty("--Bcolor", colorList[colorNum][1]);
     var prompt = promptInput.value;
     progressBar.style.display = "block";
 
-    const regex = /[一-龥]/;
+    const regex = /[\u4e00-\u9fa5]/;
     if(regex.test(prompt)) {
       
       progressBar.innerHTML = "<p>正在优化提示词，大约需要10秒...</p><p>Optimizing prompt, please wait...</p><p>プロンプトを最適化しています。少々お待ちください...</p>";
