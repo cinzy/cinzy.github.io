@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>临兵斗者皆阵列前行</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/avatar.svg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Sun, 28 Jul 2024 17:10:04 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>给自己网站搭建AI文生图应用</title><link>https://www.cinzy.com/post/gei-zi-ji-wang-zhan-da-jian-AI-wen-sheng-tu-ying-yong.html</link><description>本程序利用cloudflare提供的服务搭建，支持api调用，打开[完整演示页面](https://cinzy.com/txt2img)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CINZY-LAB</title><link>https://www.cinzy.com</link><description>临兵斗者皆阵列前行</description><copyright>CINZY-LAB</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/avatar.svg</url><title>avatar</title><link>https://www.cinzy.com</link></image><lastBuildDate>Thu, 01 Aug 2024 08:49:57 +0000</lastBuildDate><managingEditor>CINZY-LAB</managingEditor><ttl>60</ttl><webMaster>CINZY-LAB</webMaster><item><title>给自己网站搭建AI文生图应用</title><link>https://www.cinzy.com/post/gei-zi-ji-wang-zhan-da-jian-AI-wen-sheng-tu-ying-yong.html</link><description>本程序利用cloudflare提供的服务搭建，支持api调用，打开[完整演示页面](https://cinzy.com/txt2img)&#13;
 ~~提示词支持英文，后续会推出一个提示词优化的应用~~ 提示词优化已经推出，见：[https//:cinzy.com/txt2img](https://cinzy.com/txt2img)&#13;
 &#13;
 &gt; [!TIP]&#13;
@@ -139,9 +139,10 @@ PS:微软拼音在word中的热键WIN+C可以修改文字读音相同但字不�
 　　比如说“打字”一不小心上屏为“大字”，这时可以选中“大字”按动默认热键win+z即可修改“大字”为“打字”&#13;
 &#13;
 　　可以做纯绿色版，在桌面或开始菜单建立一个快捷方式,在快捷方式属性里的目标后面加个参数 -s 设置一个快捷键，不仅实现了自定义热键而且还不占系统内存,绿色运行&#13;
-&#13;
-下图为演示动画：&#13;
 ```&#13;
+&gt; 下图为演示动画：&#13;
+&gt; ![InputAX演示](https://www.cinzy.com/old/images/InputAX%E6%BC%94%E7%A4%BA.gif)&#13;
+&#13;
 &gt; MD5:B2232353C82E53F8DFDF0B0EFD2EF83A&#13;
 &#13;
 下载-&gt;[本地下载](http://www.cinzy.com/old/soft/InputAX.rar)&#13;
