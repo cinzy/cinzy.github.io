@@ -11,19 +11,14 @@
 操作步骤
 
 1. 打开http://www.hiwifi.wtf/网站（希望能一直开着）
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/c02255c6-2bc2-473c-af66-eb07e2913900/44ca3351-10e7-4c61-ba4a-28ed116b46ca.png)
-    
+    ![image](https://github.com/user-attachments/assets/e27f6c34-89fd-474c-9eb3-78d4c5de315c)
 2. 获取local_token： http://192.168.199.1/local-ssh/ 
 3. 获取uuid： http://192.168.199.1/cgi-bin/turbo/proxy/router_info 
 4. 把获取到的local_token和uuid填入网站对应的框中点提交
 5. 提交后会生成一个cloud_token的字符串，复制后回到第二步获取local_token打开的页面
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/06e36645-42b3-4758-a4d2-c90c034729c3/Untitled.png)
-    
+    ![image](https://github.com/user-attachments/assets/c810816f-7fb7-4a71-8e3e-db5cb7c445d6)
 6. 把cloud_token填入提交按钮前面这行，点击提交
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/855b0651-61fe-41c4-80c4-437a04f682a5/Untitled.png)
+    ![image](https://github.com/user-attachments/assets/011675f0-7607-46c0-82d1-603ecb5f5663)
     
 7. 如果成功，会提示开启22端口已开启，如果失败就多试几次
 
@@ -184,16 +179,11 @@ reboot
 1. 断开电源，按住 REST 键，不要松开，接通电源直到电源灯闪烁
 2. ping 192.168.1.1 ，通了即可继续下面操作
 3. 浏览器输入192.168.1.1,把之前备份好的MAC地址填入**MAC地址修改**菜单对应位置
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/6c299afc-c0ed-4c48-bc71-ee18c4e8a194/Untitled.png)
-    
+    ![image](https://github.com/user-attachments/assets/89167f63-5212-415a-a69f-4e869ed7692f)
 4. 选则固件更新菜单，在固件行点浏览，选择下载好的文件，等待进度条走完即可。
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/918f5329-859f-4e9c-8c95-e4b152422821/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/5753d9ba-fbc9-423e-906a-19ca1451837a/Untitled.png)
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/b6460282-f530-4355-971f-53d32e2ca943/6e8e0702-14d2-4cc3-9fe8-7638acf7ec0a/Untitled.png)
+    ![image](https://github.com/user-attachments/assets/9f6b0696-7d26-4482-a0de-2065ffcde0eb)
+    ![image](https://github.com/user-attachments/assets/2ae94b66-8418-46b7-96c3-06be7937ef3f)
+    ![image](https://github.com/user-attachments/assets/56c8a82f-6d18-40f8-8dea-4342eb1e24e1)
     
 5. 浏览器打开192.168.1.1（如果你用无线链接，重新连接OpenWrt的无线节点，密码空），使用默认管理密码：**password**（不是密码的中文解释，这就是密码）登录新的openwrt系统，enjoy！
 
